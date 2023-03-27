@@ -21,14 +21,14 @@ color: #e81c4f;
 
 header {
 background-color: #263d36;
-background-image: url("/img/programa.jpg");
+background-image: url("/img/Blue.jpg");
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
 line-height: 1.2;
 padding: 10vw 2em;
 text-align: center;
-color: #01fd01;
+color: #f0f0f0;
 }
 
 .tabla {
@@ -41,4 +41,8 @@ border: 1px solid rgb(49, 19, 13);
 font-weight: bold;
 text-align: center;
 
+}
+
+.anchor{
+  margin-left: 20px;
 }

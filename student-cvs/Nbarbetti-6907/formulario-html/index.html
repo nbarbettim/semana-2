@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Contact</h1>
+
+        <form>
+
+            <div class="Formulario">
+                <label for="name">Name*</label>
+                <input id="name" type="text" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="Formulario">
+                <label for="email">Email*</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="Formulario">
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Enter your phone" required>
+            </div>
+
+            <div class="Formulario">
+                <label for="website">Website</label>
+                <input type="text" placeholder="Enter your website" required>
+            </div>
+
+            <div class="Formulario">
+                <fieldset>
+                    <legend class="WA">Work Area*</legend>
+
+                    <input id="Mobility consultancies" name="workarea" type="radio" required>
+                    <label for="Mobility consultancies">Mobility consultancies</label>
+
+                    <input id="Website" name="workarea" type="radio" required>
+                    <label for="Website">Website</label>
+
+                    <input id="Webapp" name="workarea" type="radio" required>
+                    <label for="Webapp">Webapp</label>
+
+                    <input id="Mobile app" name="workarea" type="radio" required>
+                    <label for="Mobile app">Mobile app</label>
+                    
+                </fieldset>
+            </div>
+
+            <div class="Formulario">
+                <label for="asunto">Subject*</label>
+                <input type="text" placeholder="Write a subject" required>
+            </div>
+
+            <div class="Formulario">
+                <label for="Description">Description*</label>
+                <textarea placeholder="Write a description" id="description" rows="5" required></textarea>
+            </div>
+
+            <div class="Formulario">
+                <label for="Terms">
+                    <input id="Terms" type="checkbox" required>
+                    <span>Accept Terms</span>
+                </label>
+            </div>
+
+            <div class="obligatorio">
+                * Required fields
+            </div>
+
+            <button>Send</button>
+        </form>
+    </main>
+</body>
+
+</html>
